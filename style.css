@@ -1,8 +1,10 @@
 body {
-    background-color: #F7F9FC;
-    color: #575F7D;
+    background-image: url("images/OQ3D1Y0.jpg");
+    color: #3d4358;
     font-family: 'Lora', serif;
     font-weight: lighter;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1, h2, h3, a {
@@ -10,20 +12,20 @@ h1, h2, h3, a {
 }
 
 h1 {
-    color: #575F7D;
+    color: #3d4358;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 38px;
 }
 
 h2 {
-    color: #39B380;
-    font-size: 20px;
-    font-weight: 500;
+    color: #3976b3;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 a {
     text-decoration: none;
-    color: #6B72E1;
+    color: #3976b3;
     font-weight: 600;
     font-size: 16px;
 }
@@ -50,15 +52,19 @@ a:hover {
 }
 
 .card-white {
-    background-color: white;
+    background-color: rgba(221, 230, 236, 0.657);
     padding: 40px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(170, 113, 244, 0.1);
     margin: 20px;
     text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    
 }
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 10%;
+    height: 12rem;
 }
 
 .btn-blue {
@@ -93,4 +99,30 @@ a:hover {
 
 #introduction p {
     margin-bottom: 40px;
+}
+
+
+.bar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.247);
+    border-radius: 6px;
+}
+
+.block-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+    border-radius: 6px;
+
+
+}
+.block-text {
+    padding: 10px;
+    align-content: flex-start;
 }
