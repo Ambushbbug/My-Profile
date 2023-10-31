@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@400;500&display=swap');
+
 body {
     background-image: url("images/OQ3D1Y0.jpg");
     color: #3d4358;
-    font-family: 'Lora', serif;
+    font-family: 'Labrada', serif;
     font-weight: lighter;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1, h2, h3, a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Labrada', sans-serif;
 }
 
 h1 {
